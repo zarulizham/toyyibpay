@@ -1,0 +1,30 @@
+{
+    "name": "zarulzubir/toyyibpay",
+    "description": "ToyyibPay Laravel Package",
+    "version": "1.0.0",
+    "authors": [
+        {
+            "name": "Muhamad Zarul Izham Zubir",
+            "email": "zarul.izham@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^7.3 || ^8.0",
+        "guzzlehttp/guzzle": "^7.0.1",
+        "illuminate/support": "^8.18.1",
+        "php-http/guzzle7-adapter": "^0.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "ZarulZubir\\ToyyibPay\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "ZarulZubir\\ToyyibPay\\ToyyibPayServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev"
+}
